@@ -13,7 +13,7 @@ import NavBar from './NavBar.vue'
 
 export default {
     name: 'HomePage',
-    compontents: {
+    components: {
         NavBar
     },
     props: {
@@ -34,7 +34,7 @@ export default {
 
     .header {
         display: block;
-        background-color: cornflowerblue;
+        background-color: rgb(255, 255, 255);
         width: 100%;
         height: 50vh;
         border-radius: .65em;
