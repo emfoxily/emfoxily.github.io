@@ -34,7 +34,7 @@
 <style scoped>
 
     nav {
-        background-color: #ffffff;
+        background-color: rgb(252, 252, 252);
         width: 100vw;
         padding: 1em 0;
         margin-bottom: 1em;

@@ -34,7 +34,7 @@ export default {
 
     .header {
         display: block;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(252, 252, 252);
         width: 100%;
         height: 50vh;
         border-radius: .65em;
