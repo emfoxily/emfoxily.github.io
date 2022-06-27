@@ -1,6 +1,7 @@
 <template>
-    <NavBar />
+    
     <container>
+        <NavBar />
         <div class="header">
             
         </div>

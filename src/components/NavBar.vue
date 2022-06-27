@@ -11,7 +11,7 @@
             </li>
 
             <li>
-                logo
+                <img src="../assets/logo.png" />
             </li>
 
             <li>
@@ -33,11 +33,19 @@
 
 <style scoped>
 
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
     nav {
+        margin: 1em 0 0;
         background-color: rgb(252, 252, 252);
-        width: 100vw;
-        padding: 1em 0;
+        /* width: 100vw; */
+        padding: .5em 0;
         margin-bottom: 1em;
+        border-radius: .65em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .7em;
+        text-transform: uppercase;
+        color: rgb(182, 182, 182);
     }
 
     nav ul {
@@ -45,7 +53,8 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 75vw;
+        /* width: 75vw; */
+        padding: 0;
     }
 
     nav li {
@@ -54,6 +63,10 @@
         justify-content: center;
         align-items: center;
         list-style: none;
+    }
+
+    nav li img {
+        width: 3vw;
     }
 
 </style>
