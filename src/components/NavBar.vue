@@ -33,8 +33,6 @@
 
 <style scoped>
 
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
     nav {
         margin: 1em 0 0;
         background-color: rgb(252, 252, 252);
@@ -44,6 +42,7 @@
         border-radius: .65em;
         font-family: 'Open Sans', sans-serif;
         font-size: .7em;
+        font-weight: 600;
         text-transform: uppercase;
         color: rgb(182, 182, 182);
     }
